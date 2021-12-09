@@ -69,10 +69,10 @@ Opens the File Selector
 
 #### FileSelectResult
 
-| Prop            | Type                 | Description     |
-| --------------- | -------------------- | --------------- |
-| **`path`**      | <code>boolean</code> | File Path       |
-| **`name`**      | <code>string</code>  | File Name       |
-| **`extension`** | <code>string</code>  | File Extensions |
+| Prop            | Type                | Description     |
+| --------------- | ------------------- | --------------- |
+| **`path`**      | <code>string</code> | File Path       |
+| **`name`**      | <code>string</code> | File Name       |
+| **`extension`** | <code>string</code> | File Extensions |
 
 </docgen-api>

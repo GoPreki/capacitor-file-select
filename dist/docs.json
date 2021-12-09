@@ -1,0 +1,86 @@
+{
+  "api": {
+    "name": "FileSelectPlugin",
+    "slug": "fileselectplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "select",
+        "signature": "(options: FileSelectOptions) => any",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "FileSelectOptions"
+          }
+        ],
+        "returns": "any",
+        "tags": [],
+        "docs": "Opens the File Selector",
+        "complexTypes": [
+          "FileSelectOptions",
+          "FileSelectResult"
+        ],
+        "slug": "select"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [
+    {
+      "name": "FileSelectOptions",
+      "slug": "fileselectoptions",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "multiple",
+          "tags": [],
+          "docs": "Select multiple Files",
+          "complexTypes": [],
+          "type": "boolean"
+        },
+        {
+          "name": "extensions",
+          "tags": [],
+          "docs": "Extensions to select",
+          "complexTypes": [],
+          "type": "{}"
+        }
+      ]
+    },
+    {
+      "name": "FileSelectResult",
+      "slug": "fileselectresult",
+      "docs": "",
+      "tags": [],
+      "methods": [],
+      "properties": [
+        {
+          "name": "path",
+          "tags": [],
+          "docs": "File Path",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "name",
+          "tags": [],
+          "docs": "File Name",
+          "complexTypes": [],
+          "type": "string"
+        },
+        {
+          "name": "extension",
+          "tags": [],
+          "docs": "File Extensions",
+          "complexTypes": [],
+          "type": "string"
+        }
+      ]
+    }
+  ],
+  "enums": []
+}

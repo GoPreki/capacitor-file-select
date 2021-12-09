@@ -132,7 +132,7 @@ public class FileSelectPlugin extends Plugin {
             cursor.close();
         }
         JSObject result = new JSObject();
-        result.put("path", "_capacitor_file_" + file.getPath());
+        result.put("path", "file://" + file.getPath());
         result.put("name", name);
         result.put("extension", name.substring(name.indexOf('.')));
         return result;
